@@ -6,32 +6,77 @@ class Footer extends Component {
 		return (
 			<div className="footer-container">
 				<div className="footer-sponsors">
-					<h2 className="footer-header"><u className="footer-border">Our Sponsors</u></h2>
+					<h2 className="footer-header">
+						<u className="footer-border">Our Sponsors</u>
+					</h2>
 					<div>
-						<a target='_blank' rel="noopener noreferrer" href='https://www.onlinesbi.com/'><img alt="SBI Logo" src={require('../img/sponsors/sbi.png')} /></a>
-						<a target='_blank' rel="noopener noreferrer" href='https://byjus.com/'><img alt="Byju's Logo" src={require('../img/sponsors/byju.png')} /></a>
-						<a target='_blank' rel="noopener noreferrer" href='https://www.endeavorcareers.com/'><img alt="Endeavor Logo" src={require('../img/sponsors/endeavor.png')} /></a>
-						<a target='_blank' rel="noopener noreferrer" href='https://codingblocks.com/'><img alt="Coding Blocks Logo" src={require('../img/sponsors/codingblocks.png')} /></a>
+						<a target="_blank" rel="noopener noreferrer" href="https://www.onlinesbi.com/">
+							<img alt="SBI Logo" src={require('../img/sponsors/sbi.png')} />
+						</a>
+						<a target="_blank" rel="noopener noreferrer" href="https://www.stickermule.com/">
+							<img alt="stickermule's Logo" src={require('../img/sponsors/byju.png')} />
+						</a>
+						<a target="_blank" rel="noopener noreferrer" href="https://www.endeavorcareers.com/">
+							<img alt="Endeavor Logo" src={require('../img/sponsors/endeavor.png')} />
+						</a>
+						<a target="_blank" rel="noopener noreferrer" href="https://codingblocks.com/">
+							<img alt="Coding Blocks Logo" src={require('../img/sponsors/codingblocks.png')} />
+						</a>
 					</div>
 				</div>
 
 				<div className="footer">
 					<div className="institute-logo">
-						<img alt="IIITV Logo" src={require('../img/institute-logo.svg')} height='100px' />
+						<img alt="IIITV Logo" src={require('../img/institute-logo.svg')} height="100px" />
 						<span>Indian Institute of Information Technology, Vadodara</span>
 					</div>
 					<div className="links">
-						<h2 className="footer-header"><u className="footer-border">Links</u></h2>
-						<div className="footer-item"><a className="footer-link" href="/">Home</a></div>
-						<div className="footer-item"><a className="footer-link" target="_blank" rel="noopener noreferrer" href="http://iiitv.ac.in">Institute Site</a></div>
-						<div className="footer-item"><a className="footer-link" href="/about">About</a></div>
-						<div className="footer-item"><a className="footer-link" href="/timeline">Timeline</a></div>
+						<h2 className="footer-header">
+							<u className="footer-border">Links</u>
+						</h2>
+						<div className="footer-item">
+							<a className="footer-link" href="/">
+								Home
+							</a>
+						</div>
+						<div className="footer-item">
+							<a className="footer-link" target="_blank" rel="noopener noreferrer" href="http://iiitv.ac.in">
+								Institute Site
+							</a>
+						</div>
+						<div className="footer-item">
+							<a className="footer-link" href="/about">
+								About
+							</a>
+						</div>
+						<div className="footer-item">
+							<a className="footer-link" href="/timeline">
+								Timeline
+							</a>
+						</div>
 					</div>
 					<div className="contact">
-						<h2 className="footer-header"><u className="footer-border">Contact</u></h2>
-						<div className="footer-item"><span className="header-color">Email: </span><a className="footer-link" href="mailto:cerebro@iiitv.ac.in">cerebro@iiitv.ac.in</a></div>
-						<div className="footer-item"><span className="header-color">Phone: </span><a className="footer-link" href="tel:+91-9370645038">+91-9370645038</a></div>
-						<div className="footer-item"><span className="header-color">Address: </span> <a className="footer-link" href="https://goo.gl/maps/7g5D6XJpMAD2">c/o Block No.9, Government Engineering College, Sector-28, Gandhinagar, Gujarat - 382028</a></div>
+						<h2 className="footer-header">
+							<u className="footer-border">Contact</u>
+						</h2>
+						<div className="footer-item">
+							<span className="header-color">Email: </span>
+							<a className="footer-link" href="mailto:cerebro@iiitv.ac.in">
+								cerebro@iiitv.ac.in
+							</a>
+						</div>
+						<div className="footer-item">
+							<span className="header-color">Phone: </span>
+							<a className="footer-link" href="tel:+91-9370645038">
+								+91-9370645038
+							</a>
+						</div>
+						<div className="footer-item">
+							<span className="header-color">Address: </span>{' '}
+							<a className="footer-link" href="https://goo.gl/maps/7g5D6XJpMAD2">
+								c/o Block No.9, Government Engineering College, Sector-28, Gandhinagar, Gujarat - 382028
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
